@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .circle {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #fffec8;
+      margin: 0 20px;
+    }
+    .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.title {
+font-size: 24px;
+font-weight: bold;
+margin-top: 10px;
+text-align: center;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+
+.inicialimagem {
+width: 20%;
+max-width: 100px;
+}
+
+h1 {
+text-align: center;
+color: #1c2130;
+font-size: 48px;
+font-family: system-ui;
+border-bottom: 7px solid black;
+margin-top: 0;
+}
+
+.logo {
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+color: #1c2130;
+font-family: system-ui;
+}
+</style>
+
 </head>
 <body>
-    <header
-   <h1>YGGDRASIL</h1> 
-   <ul>
-    <li>Sobre mim</li>
-    <LI>Profissional</LI>
-    <li>Música</li>
-    <li>Literatura</li>
-   </ul>
-   <header
-
+  <header>
+    <div class="logo">YGGDRASIL</div>
+    <img class="inicialimagem" src="https://static.vecteezy.com/system/resources/previews/001/200/684/original/triangle-valknut-png.png">
+  </header>
+  <div class="container">
+    <div class="circle"></div>
+    <p class="title"><a href="sobremim.html">Sobre Mim</a></p>
+    <div class="circle"></div>
+    <p class="title"><a href="profissional.html">Profissional</a></p>
+    <div class="circle"></div>
+    <p class="title"><a href="musica.html">Música</a></p>
+    <div class="circle"></div>
+    <p class="title"><a href="literartura.html">Literatura</a></p>
+  </div>
 </body>
 </html>
